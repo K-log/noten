@@ -53,7 +53,7 @@ function addNote() {
   const date = new Date()
   const gettingItems = browser.storage[storageArea].get(null);
   gettingItems.then((results) => {
-    const objTest = Object.keys(results[id] ?? {})
+    const objTest = Object.keys(results[id] ? results[id] : {})
     if(objTest.length < 1 && id !== '' && body !== '') {
       const sortOrder = Object.keys(results).length
       inputBody.value = ''

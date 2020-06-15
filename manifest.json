@@ -14,13 +14,13 @@
 
 
   "icons": {
-    "48": "icons/icon.png"
+    "64": "icons/icon.png"
   },
 
   "sidebar_action": {
     "default_title": "NoteN",
     "default_panel": "sidebar.html",
-    "default_icon": "sidebar_icon.png"
+    "default_icon": "icons/icon.png"
   },
 
   "permissions": [
