@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "NoteN",
+  "version": "1.0",
+
+  "description": "Add's a simple note's stack sidebar.",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@noten",
+      "strict_min_version": "70.0"
+    }
+  },
+
+
+  "icons": {
+    "48": "icons/icon.png"
+  },
+
+  "sidebar_action": {
+    "default_title": "NoteN",
+    "default_panel": "sidebar.html",
+    "default_icon": "sidebar_icon.png"
+  },
+
+  "permissions": [
+    "unlimitedStorage",
+    "storage"
+  ]
+}
