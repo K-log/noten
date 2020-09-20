@@ -1,28 +1,30 @@
 {
   "manifest_version": 2,
   "name": "NoteN",
-  "version": "1.0",
-
+  "version": "2.0.0",
   "description": "Add's a simple note's stack sidebar.",
-
+  "homepage_url": "https://github.com/K-Log/noten",
   "browser_specific_settings": {
     "gecko": {
       "id": "@noten",
       "strict_min_version": "70.0"
     }
   },
-
-
   "icons": {
-    "64": "icons/icon.png"
+    "64": "icon.png"
   },
-
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [],
+      "css": []
+    }
+  ],
   "sidebar_action": {
     "default_title": "NoteN",
     "default_panel": "sidebar.html",
-    "default_icon": "icons/icon.png"
+    "default_icon": "icon.png"
   },
-
   "permissions": [
     "unlimitedStorage",
     "storage"
