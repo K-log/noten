@@ -36,5 +36,7 @@
   "devDependencies": {
     "web-ext": "^5.0.0",
     "web-ext-react": "^1.0.1"
-  }
+  },
+  "license": "MIT",
+  "author": "Noah Burwell"
 }
