@@ -14,7 +14,8 @@
     "start": "react-scripts start",
     "start:firefox": "web-ext-react run | xargs -L1 web-ext run -u http://www.example.org/ -s",
     "start:chrome": "web-ext-react run | xargs -L1 web-ext run -u http://www.example.org/ -t chromium -s",
-    "build": "web-ext-react build | xargs -L1 web-ext build -o -s",
+    "build-web-ext": "web-ext-react build | xargs -L1 web-ext build -o -s",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
